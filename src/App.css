@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.portfolio-card {
+  height: 500px;
+}
+
+.card-desc {
+
+  background: rgba(0,0,0,0.5);
+}
+
+.card-img-1 {
+  top: -320%;
+}
+
+.card-img-2 {
+  bottom: -300%;
 }
