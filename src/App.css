@@ -50,11 +50,43 @@
 
   background: rgba(0,0,0,0.5);
 }
+.portfolio-card:hover .card-img-1 {
+  top: -310%;
+  filter: grayscale(0);
+}
+
+.portfolio-card:hover .card-img-2 {
+  bottom: -265%;
+  filter: grayscale(0);
+}
 
 .card-img-1 {
-  top: -320%;
+  top: -280%;
+  overflow: hidden;
+  border-radius: 20px;
+  width:46%;
+  left: 3%;
 }
 
 .card-img-2 {
-  bottom: -300%;
+  bottom: -250%;
+  right: 3%;
+  overflow: hidden;
+  border-radius: 20px;
+  width:46%;
+}
+
+.wrapper {
+  max-width: 1920px;
+  width: 80%;
+  
+}
+
+.follower {
+  width: 1000px;
+  height: 1000px;
+  top: 0;
+  left: 0;
+  border-radius: 100%;
+  
 }

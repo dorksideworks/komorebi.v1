@@ -12,7 +12,9 @@ module.exports = {
         "dark" : "#0E0E0E",
         "dark-2" : "#1B1B1B",
         "dgreen" : "#132A36",
-        "lgreen" : "#3CDAA7"
+        "lgreen" : "#3CDAA7",
+        "dark-3" : "#131313"
+        
       },
       "slate" : colors.slate,
       "white" : colors.white,
