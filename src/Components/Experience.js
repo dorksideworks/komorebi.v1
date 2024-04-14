@@ -3,7 +3,7 @@ import experience from '../Data/experience.json';
 
 function Experience() {
   return (
-    <div class="flex flex-row relative bg-komorebi-dark py-20">
+    <div class="flex flex-row relative py-20">
         <div class="flex flex-row w-2/3 mx-auto left-0 right-0 gap-20 relative">
             <div class="basis-1/3 text-left">
                 <h1 class="text-6xl font-bold text-komorebi-light"> Experience </h1>

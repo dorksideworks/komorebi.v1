@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div class=" bg-komorebi-dark flex flex-row justify-center">
+    <div class="flex flex-row justify-center">
 
         <div class="wrapper flex flex-row py-40">
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div class="relative bg-komorebi-dark pb-5 flex flex-col justify-center align-center items-center">
+    <div class="relativepb-5 flex flex-col justify-center align-center items-center">
 
         <div class="w-3/4 bg-komorebi-light rounded-b-3xl flex flex-row relative overflow-hidden">
             <div class="basis-1/2 flex flex-col text-left pl-20 justify-center  ">
