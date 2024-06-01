@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div class="w-3/4 absolute bg-komorebi-light p-10 flex flex-row isolate z-50 mx-auto left-0 right-0 overflow-hidden items-center justify-center align-center">
+    <div class="mx-auto  bg-komorebi-light p-10 flex flex-row isolate z-50 left-0 right-0 overflow-hidden items-center justify-center align-center">
         <div class="basis-1/3 flex items-center pl-14">
             <img src="/ASSETS/komorebi-logo.png" class="h-14"/>
         </div>

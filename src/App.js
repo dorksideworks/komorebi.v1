@@ -17,11 +17,15 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/" element={ <Home/> } />
-        </Routes>
+      <div className="App bg-komorebi-dark">
+        <div class="komorebi-wrapper mx-auto px-20 relative">
+          
+          <Header class="z-50"/>
+          <Routes>
+            <Route path="/" element={ <Home/> } />
+          </Routes>
+
+        </div>
       </div>
     </Router>
   );

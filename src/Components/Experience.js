@@ -4,7 +4,7 @@ import experience from '../Data/experience.json';
 function Experience() {
   return (
     <div class="flex flex-row relative py-20">
-        <div class="flex flex-row w-2/3 mx-auto left-0 right-0 gap-20 relative">
+        <div class="flex flex-row mx-auto left-0 right-0 gap-20 relative">
             <div class="basis-1/3 text-left">
                 <h1 class="text-6xl font-bold text-komorebi-light"> Experience </h1>
                 <p class="text-gray-500 text-xl mt-5"> Embark on a journey through my professional career, where each role has been a stepping stone towards growth and expertise. From early experiences to present accomplishments, I've cultivated a rich tapestry of skills and achievements. </p>

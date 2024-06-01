@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div class=" py-20 flex flex-col items-center z-50">
+    <div class="py-20 flex flex-col items-center z-50">
         <h1 class="text-white text-6xl font-bold"> Portfolio </h1>
 
         <p class="mt-5 mb-20 text-white text-center w-1/2 text-gray-400"> Welcome to my portfolio, a curated collection of my creative endeavors in graphic design, branding, and web development. A diverse range of projects that showcase my passion for design and my commitment to delivering impactful solutions for clients across various industries.</p>

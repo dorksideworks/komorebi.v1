@@ -14,26 +14,22 @@ function Home() {
 
   useEffect(() => {
 
-    document.addEventListener("mousemove", function(e) {
-      follower.current.style.top = e.pageY - (follower.current.clientHeight /2) +"px";
-      follower.current.style.left = e.pageX - (follower.current.clientWidth/2) + "px";
+    // document.addEventListener("mousemove", function(e) {
+    //   follower.current.style.top = e.pageY - (follower.current.clientHeight /2) +"px";
+    //   follower.current.style.left = e.pageX - (follower.current.clientWidth/2) + "px";
       
-    })
+    // })
   });
 
   return (
-    <div class=" bg-komorebi-dark">
-      <div class="z-50 relative block">
-        <Header />
-        <Hero/>
-        <Experience/>
-        <Port />
-        <Contact />
-        <Footer />
-        
-      </div>
-      <div ref={follower} class="z-1 follower mix-blend-overlay z-1  duration-100 absolute blur-3xl bg-komorebi-lgreen absolute"></div>
-
+    <div class="z-20 relative block">
+      
+      <Hero/>
+      <Experience/>
+      <Port />
+      <Contact />
+      <Footer />
+      
     </div>
   )
 }
